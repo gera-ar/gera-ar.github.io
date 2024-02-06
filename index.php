@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Gera.ar: Accesibilidad y conocimiento colectivo.">
+    <meta name="author" content="Gerardo Kessler">
+    <title>Biblioteca epub</title>
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
+    <style>
+        ul {
+            list-style-type: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Buscador general de la biblioteca Utopía</h1>
+
+    <label for="search">Ingresá el nombre del autor o título y pulsá intro para iniciar la búsqueda</label>
+    <input type="text" id="search">
+    <br>
+
+    <select id="search_results">
+      <option value="">Lista vacía</option>
+    </select>
+    <br>
+    <button id="search_btn" disabled>Ver los datos del libro</button>
+    <br>
+
+    <div id="modal" style="display:none;">
+        <h2 id="modal_title"></h2>
+        <p id="modal_title"></p>
+        <p id="modal_authors"></p>
+        <p id="modal_pages"></p>
+        <p id="modal_comments"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
