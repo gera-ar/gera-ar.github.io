@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Historias on Reflexiones de un cronopio</title>
+    <title>historias on Reflexiones de un cronopio</title>
     <link>https://cronopio.blogsyte.com/blog/historias/</link>
-    <description>Recent content in Historias on Reflexiones de un cronopio</description>
-    <generator>Hugo</generator>
+    <description>Recent content in historias on Reflexiones de un cronopio</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>es-AR</language>
     <copyright>Copyright © 2025, Gera Kessler.</copyright>
-    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cronopio.blogsyte.com/blog/historias/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cronopio.blogsyte.com/blog/historias/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>No es que sea miedoso, es que...</title>
       <link>https://cronopio.blogsyte.com/no-es-que-sea-miedoso-es-que.../</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>https://cronopio.blogsyte.com/no-es-que-sea-miedoso-es-que.../</guid>
-      <description>&lt;p&gt;Cada vez que llega esta parte del año, a parte de sufrir por el alto número del termostato que impacta de lleno en mi pobre cuerpecito también arrastra consigo una incomodidad quizá no tan grave para el común de la gente, pero sin dudas molesto para mi.&lt;/p&gt;&#xA;&lt;p&gt;Eso que tanto me joden son los putos insectos. Pero no solo las moscas y los mosquitos, sino los tan temidos abejorros, abejas y avispas. Ha, no es para tanto exagerardo&amp;hellip; Me dirá algún insensible de las fobias ajenas. Pero ¡si lo es!&lt;/p&gt;</description>
+      <description>Cada vez que llega esta parte del año, a parte de sufrir por el alto número del termostato que impacta de lleno en mi pobre cuerpecito también arrastra consigo una incomodidad quizá no tan grave para el común de la gente, pero sin dudas molesto para mi.
+Eso que tanto me joden son los putos insectos. Pero no solo las moscas y los mosquitos, sino los tan temidos abejorros, abejas y avispas.</description>
     </item>
+    
     <item>
       <title>Indicaciones inútiles</title>
       <link>https://cronopio.blogsyte.com/indicaciones-in%C3%BAtiles/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://cronopio.blogsyte.com/indicaciones-in%C3%BAtiles/</guid>
-      <description>&lt;p&gt;En estos días he vuelto a realizar uno de esos cruces de calles estrambóticos que encaro con más convicción que orientación, que por suerte no son frecuentes.&#xA;Suele sucederme o bien cuando estoy distraído, cuando la rampa es de esas que están en diagonal, o cuando algún objeto obstruye el paso por el lugar acostumbrado en una esquina, que fue el caso en esta ocasión.&lt;/p&gt;&#xA;&lt;p&gt;Al darme cuenta tardíamente de que mis supuestos pasos a la vereda de enfrente estaban apuntados justo al medio del cruce de calles, me encuentro con una dama en bicicleta a la que se le desacomodaron las neuronas intentando indicarme para donde ir.&lt;/p&gt;</description>
+      <description>En estos días he vuelto a realizar uno de esos cruces de calles estrambóticos que encaro con más convicción que orientación, que por suerte no son frecuentes. Suele sucederme o bien cuando estoy distraído, cuando la rampa es de esas que están en diagonal, o cuando algún objeto obstruye el paso por el lugar acostumbrado en una esquina, que fue el caso en esta ocasión.
+Al darme cuenta tardíamente de que mis supuestos pasos a la vereda de enfrente estaban apuntados justo al medio del cruce de calles, me encuentro con una dama en bicicleta a la que se le desacomodaron las neuronas intentando indicarme para donde ir.</description>
     </item>
+    
   </channel>
 </rss>
