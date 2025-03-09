@@ -1,5 +1,5 @@
 +++
-title = "No es que sea miedoso..."
+title = "No es que sea miedoso"
 date = "2025-01-12"
 description = "Había una vez un vecino de mi abuela, el cual se dedicaba a criar esos insectos detestables en esa infame profesión que llaman apicultura, que no tuvo mejor idea que dejar un panal o como se llame esa cosa rectangular parecida a una conservadora llena de asesinos al fondo de la casa de la madre de mi madre, o mi segunda mamá por quien fui felizmente malcriado durante mi infancia y un poco más también."
 tags = [
