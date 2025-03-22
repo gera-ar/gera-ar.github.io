@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-Como contemporáneo de muchos milenials, centenials y no sé qué más de cristal, pugno por no volverme un viejo rezongón de las modas artísticas, intentando buscarle las cosquillas y comprender por qué están de moda y dónde se enfoca su belleza. Y no es fácil.
+Como contemporáneo de muchos milenials, centenials y generaciones posteriores, pugno por no volverme un viejo rezongón de las modas artísticas, intentando buscarle las cosquillas y comprender por qué están de moda y dónde se enfoca su belleza. Y no es fácil.
 
 La música, que es el ámbito en el que más o menos puedo desenvolverme mejor, es donde más rápido noto los cambios.
 En las nuevas propuestas artísticas de los diferentes géneros, o bien se mantiene la estructura clásica del género, se fusiona con elementos modernos, o se crean nuevos estilos. Y con estos últimos se está produciendo un choque con la revolución en pugna.
@@ -25,9 +25,9 @@ La pregunta que surge es por qué se logra un resultado difícil de diferenciar 
 
 A medida que los recursos artísticos se han ido alejando de la expresividad plasmada en la ejecución de los instrumentos y las voces, en pos de herramientas digitales de postproducción con instrumentos virtuales, cajas de ritmo, efectos varios y otras herramientas, el sonido resultante se ha ido alejando cada vez más de la sonoridad natural de estos instrumentos, ahora súper procesados.
 
-Las voces se modifican hasta casi deformarse, y al menos en las grabaciones prácticamente no se utilizan instrumentos reales. En las actuaciones en vivo, por ahora muchos artistas prefieren fusionar todo lo digital con instrumentistas humanos que dan ese toque de realidad a lo que de otra forma se vería muy etéreo, intangible.
+Las voces se modifican hasta casi deformarse, y al menos en las grabaciones prácticamente no se utilizan instrumentos reales. Mucho sampling, synthesizers, plugins, efectos, que conforman todo un lenguaje en si mismos.
 
-Esto ha llevado a que la búsqueda artística en los actuales estilos de música de moda se basen en la originalidad de las herramientas utilizadas y en la creación letrística disruptiva, para bien o para mal. Que el foco no esté en la expresividad de una voz, o en la emoción de un solo, sino en lo pegajoso de un verso o un ritmo. En que todo sea mas o menos igual, pero levemente distinto.
+Esto ha llevado a que la búsqueda artística en los actuales estilos de música de moda se basen en la originalidad de las herramientas utilizadas y en la creación letrística disruptiva, para bien o para mal. Que el foco no esté en la expresividad de una voz, o en la emoción de un solo, sino en lo pegajoso de un verso o un ritmo. En que todo sea mas o menos igual, pero lo suficientemente diferente para identificar a un artista o productor.
 
 Si lo que pienso se acerca al desierto de lo real, quizá podamos simplificar el porqué de los buenos resultados con un algoritmo "creativo". La música ya está procesada y digitalizada de tal forma que la diferencia está en que un humano utiliza elementos digitales de producción, mientras que las IAs utilizan esas mismas herramientas, pero de forma automatizada. Ergo, es difícil diferenciar los resultados.
 
