@@ -28,13 +28,15 @@ Sin embargo, estoy convencido de que el aporte que cada elenco puede hacer a una
 
 He escuchado conjuntos numerosos de guitarras interpretar música de orquesta tradicional que sonaban de la puta hostia. Y, sin embargo, uno reconocía a guitarras tocando como guitarras, no imitando un staccato de trompeta. Y ese, a mi humilde entender, es el valor que nosotros, como músicos de instrumentos que no son los originales en los que pensó el compositor, podemos sumar a lo ya hecho.
 
-Un saxofón no es una viola, por más que utilicemos boquillas microscópicas, cañas de papel, nos pongamos un tutú y toquemos en puntitas de pie. El saxofón es sonoro, aunque esté etiquetado como un instrumento de madera. Eso solo sucede porque la fuente sonora es una caña, pero su composición estructural está más relacionada con los instrumentos de metal que con otra cosa. Pedir pianos, slaps, glissandos, yunyún de arco, o cualquier cosa característica de una cuerda a un saxofón es un sacrilegio y un desaprovechamiento total de las cualidades de un instrumento como este.
+Un saxofón no es una viola, por más que utilicemos boquillas microscópicas, cañas de papel, nos pongamos un tutú y toquemos en puntitas de pie. El saxofón es sonoro, aunque esté etiquetado como un instrumento de madera. Eso solo sucede porque la fuente sonora es una caña, pero su composición estructural está más relacionada con los instrumentos de metal que con otra cosa.
+
+Pedir pianississimos de cuerda, slaps en melodías ligerísimas, glissandos eternos, yunyún de arco, o cualquier cosa exclusivamente característica de una cuerda a un saxofón es un sacrilegio y un desaprovechamiento total de las cualidades de un instrumento como este.
 
 Y este concepto es totalmente aplicable al total de una banda sinfónica. Por más que se esté ejecutando música de cámara, creo que hay que tomar la esencia de la idea artística del compositor y llevarla a la sonoridad del elenco que sea. Y ojo, que no me refiero a, por ejemplo, no respetar las ideas dinámicas de un autor en su obra, sino a realizar ese contraste dinámico pero en el rango donde los instrumentos suenan como deben sonar, y no forzarlos a límites incómodos e irreales.
 
 Si un autor moderno quiere que mi sonido sea más aire que frecuencias, por mí perfecto. Eso es parte conceptual de la obra. Lo otro es perder energía y ganas por el camino.
 
 Es tarea de los directores y arregladores aprender a trabajar potenciando y no estructurar imitando. Eso es malo, feo, caca.
-Es tarea nuestra encontrar la identidad de nuestro sonido y lograr la flexibilidad necesaria para aportar lo que se necesita y no dormirnos en la comodidad de lo estático e insípido de algo sin musicalidad.
+Es nuestra responsabilidad como músicos encontrar la identidad de nuestro sonido y lograr la flexibilidad necesaria para aportar lo que se necesita y no dormirnos en la comodidad de lo estático e insípido de algo sin musicalidad.
 
 En épocas donde la identidad ha cobrado un rol tan necesario y relevante, quizá alguien se haga cargo de que una banda es una banda, y debe sonar como tal, por más que esté tocando una chacarera, una suit de Bach o un blues. Me autopercibo saxofonista señor, no frotador de cuerdas.
