@@ -243,7 +243,26 @@ Solo muy de vez en cuando me reconcilio conmigo mismo y me gusto un poco cuando 
   <footer>
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
 <p><a href="https://gera.ar">gera.ar</a></p></footer>
+<script>
+function enviarDatos() {
+    const title = document.title;
+    const fecha = new Date().toISOString();
 
+    fetch('https://gera.ar/phpScripts/cv.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ title: title, fecha: fecha }),
+    })
+    .then(response => response.json())
+    .then(data => console.log('Éxito:', data))
+    .catch((error) => console.error('Error:', error));
+}
+
+// Llama a la función cuando sea necesario
+enviarDatos();
+</script>
     
 </body>
 
