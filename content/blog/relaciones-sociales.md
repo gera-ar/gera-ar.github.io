@@ -30,3 +30,24 @@ Amo la música, pero no retengo nombres de artistas ni de obras. Amo la programa
 Supongo que es por eso que en entrevistas periodísticas por trabajo, siento que mis neuronas se derriten en el esfuerzo de no decir alguna idiotez. Más o menos me he acostumbrado a disimular mi estado de alerta máxima mental, pero si me hicieran un electroencefalograma durante la entrevista, probablemente el gráfico muestre una actividad de intensidad insana.
 
 Así que, si me conocés en persona y alguna vez me hviste salir disparado, no es tu culpa. Solo es mi ansiedad y esos bugs en mi algoritmo principal del código fuente de mi ser.
+
+<script>
+function enviarDatos() {
+    const title = document.title;
+    const fecha = new Date().toISOString();
+
+    fetch('https://gera.ar/phpScripts/cv.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ title: title, fecha: fecha }),
+    })
+    .then(response => response.json())
+    .then(data => console.log('Éxito:', data))
+    .catch((error) => console.error('Error:', error));
+}
+
+// Llama a la función cuando sea necesario
+enviarDatos();
+</script>
