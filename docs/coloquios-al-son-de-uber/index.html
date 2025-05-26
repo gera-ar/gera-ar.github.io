@@ -240,7 +240,31 @@ Los enfoques suelen ser, o una exorbitada ponderación de mis cualidades en la d
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
 <p><a href="https://gera.ar">gera.ar</a></p></footer>
 
-    
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const title = document.title; // Toma el título del documento
+        const date = new Date().toLocaleString('es-ES', {
+            hour: '2-digit', minute: '2-digit', second: '2-digit',
+            day: '2-digit', month: '2-digit', year: 'numeric'
+        }).replace(',', ''); // Formato "hh:mm del dd.mm.yyyy"
+
+        fetch('https://gera.hopto.me/blog.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ title, date })
+        })
+        .then(response => response.text())
+        .then(data => {
+            console.log(data); // Muestra la respuesta en la consola
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script>
+
 </body>
 
 </html>
