@@ -269,7 +269,7 @@ Así y todo seguí trasteando con algunas cosas. Me regalaron una raspberry, con
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -283,7 +283,8 @@ Así y todo seguí trasteando con algunas cosas. Me regalaron una raspberry, con
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

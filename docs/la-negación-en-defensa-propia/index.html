@@ -260,7 +260,7 @@ Que todas las personas necesitan del otro, y que no nos hace mejores la independ
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -274,7 +274,8 @@ Que todas las personas necesitan del otro, y que no nos hace mejores la independ
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

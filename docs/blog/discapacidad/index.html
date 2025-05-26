@@ -261,7 +261,7 @@ Y en ese afán...</p>
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -275,7 +275,8 @@ Y en ese afán...</p>
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

@@ -262,7 +262,7 @@ Quizá esté ahí la raíz de lo original: podemos crear de la nada, y no solo t
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -276,7 +276,8 @@ Quizá esté ahí la raíz de lo original: podemos crear de la nada, y no solo t
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

@@ -250,7 +250,7 @@ Sin embargo ahora quizás sea un buen momento. ¿Por qué? Tal vez porque ya est
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -264,7 +264,8 @@ Sin embargo ahora quizás sea un buen momento. ¿Por qué? Tal vez porque ya est
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

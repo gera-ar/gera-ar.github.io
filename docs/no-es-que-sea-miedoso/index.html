@@ -259,7 +259,7 @@ Sin embargo ese recuerdo quedó clavado en algún rincón de mi memoria hasta el
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -273,7 +273,8 @@ Sin embargo ese recuerdo quedó clavado en algún rincón de mi memoria hasta el
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

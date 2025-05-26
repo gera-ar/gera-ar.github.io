@@ -262,7 +262,7 @@ De la privacidad de las vidas cotidianas a la exposición constante de las redes
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -276,7 +276,8 @@ De la privacidad de las vidas cotidianas a la exposición constante de las redes
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

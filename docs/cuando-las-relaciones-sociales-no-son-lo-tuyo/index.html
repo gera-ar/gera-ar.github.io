@@ -258,7 +258,7 @@ Por suerte no siempre es así, y de vez en cuando me reconcilio conmigo mismo y 
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -272,7 +272,8 @@ Por suerte no siempre es así, y de vez en cuando me reconcilio conmigo mismo y 
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

@@ -258,7 +258,7 @@ Ahí radica la capacidad de hacer que otra persona, sea ciega, o que simplemente
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -272,7 +272,8 @@ Ahí radica la capacidad de hacer que otra persona, sea ciega, o que simplemente
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

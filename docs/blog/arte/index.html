@@ -261,7 +261,7 @@ A veces intento con bastante poco éxito el explicarle a quien nunca se ha subid
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -275,7 +275,8 @@ A veces intento con bastante poco éxito el explicarle a quien nunca se ha subid
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

@@ -258,7 +258,7 @@ Pero aún hay resistencia, y no solo de personas mayores. Sino de quienes han ma
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -272,7 +272,8 @@ Pero aún hay resistencia, y no solo de personas mayores. Sino de quienes han ma
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>

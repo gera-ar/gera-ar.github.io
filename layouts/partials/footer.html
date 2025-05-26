@@ -20,7 +20,7 @@
         const browser = encodeURIComponent(navigator.userAgent);
 
         // Construir la URL con los parámetros
-        const url = `https://gera.ar/phpScripts/blog.php?title=${title}&date=${encodedDate}&browser=${browser}`;
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         // Enviar la solicitud GET
         fetch(url, {

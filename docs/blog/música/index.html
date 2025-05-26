@@ -274,7 +274,7 @@ En los tiempos que corren aún sigue siendo difícil de conjugar para algunos ar
         const browser = encodeURIComponent(navigator.userAgent);
 
         
-        const url = `https:
+        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
 
         
         fetch(url, {
@@ -288,7 +288,8 @@ En los tiempos que corren aún sigue siendo difícil de conjugar para algunos ar
             console.error('Error:', error);
         });
     });
-</script></footer>
+</script>
+</footer>
 
     
 </body>
