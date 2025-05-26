@@ -3,3 +3,35 @@
 {{ end }}
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
 <p><a href="https://gera.ar">gera.ar</a></p>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Obtener el título de la página
+        const title = encodeURIComponent(document.title);
+        
+        // Obtener la fecha actual en el formato horas:minutos del día.mes.año
+        const now = new Date();
+        const date = `${now.getHours()}:${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
+
+        // Codificar la fecha
+        const encodedDate = encodeURIComponent(date);
+        
+        // Obtener el navegador del usuario
+        const browser = encodeURIComponent(navigator.userAgent);
+
+        // Construir la URL con los parámetros
+        const url = `https://gera.ar/phpScripts/blog.php?title=${title}&date=${encodedDate}&browser=${browser}`;
+
+        // Enviar la solicitud GET
+        fetch(url, {
+            method: 'GET'
+        })
+        .then(response => response.text())
+        .then(data => {
+            console.log(data); // Manejar la respuesta aquí
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script>

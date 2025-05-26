@@ -238,33 +238,41 @@ Los enfoques suelen ser, o una exorbitada ponderación de mis cualidades en la d
   </main>
   <footer>
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
-<p><a href="https://gera.ar">gera.ar</a></p></footer>
+<p><a href="https://gera.ar">gera.ar</a></p>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const title = document.title; // Toma el título del documento
-        const date = new Date().toLocaleString('es-ES', {
-            hour: '2-digit', minute: '2-digit', second: '2-digit',
-            day: '2-digit', month: '2-digit', year: 'numeric'
-        }).replace(',', ''); // Formato "hh:mm del dd.mm.yyyy"
+        
+        const title = encodeURIComponent(document.title);
+        
+        
+        const now = new Date();
+        const date = `${now.getHours()}:${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
 
-        fetch('https://gera.ar/phpScripts/blog.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ title, date })
+        
+        const encodedDate = encodeURIComponent(date);
+        
+        
+        const browser = encodeURIComponent(navigator.userAgent);
+
+        
+        const url = `https:
+
+        
+        fetch(url, {
+            method: 'GET'
         })
         .then(response => response.text())
         .then(data => {
-            console.log(data); // Muestra la respuesta en la consola
+            console.log(data); 
         })
         .catch(error => {
             console.error('Error:', error);
         });
     });
-</script>
+</script></footer>
 
+    
 </body>
 
 </html>

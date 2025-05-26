@@ -241,7 +241,39 @@ Sin embargo ese recuerdo quedó clavado en algún rincón de mi memoria hasta el
   </main>
   <footer>
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
-<p><a href="https://gera.ar">gera.ar</a></p></footer>
+<p><a href="https://gera.ar">gera.ar</a></p>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        const title = encodeURIComponent(document.title);
+        
+        
+        const now = new Date();
+        const date = `${now.getHours()}:${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
+
+        
+        const encodedDate = encodeURIComponent(date);
+        
+        
+        const browser = encodeURIComponent(navigator.userAgent);
+
+        
+        const url = `https:
+
+        
+        fetch(url, {
+            method: 'GET'
+        })
+        .then(response => response.text())
+        .then(data => {
+            console.log(data); 
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script></footer>
 
     
 </body>
