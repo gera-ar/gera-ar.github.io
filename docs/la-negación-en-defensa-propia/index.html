@@ -240,10 +240,11 @@ Que todas las personas necesitan del otro, y que no nos hace mejores la independ
 </p>
 
 <script>
-    const title = document.title;
+    const title = document.title; 
     const now = new Date();
-    const formattedDate = `${now.getHours()}.${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
+    const formattedDate = `${now.getHours()}.${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`; 
 
+    
     const formData = new FormData();
     formData.append('title', title);
     formData.append('date', formattedDate);
@@ -251,7 +252,10 @@ Que todas las personas necesitan del otro, y que no nos hace mejores la independ
     fetch('https://gera.ar/phpScripts/blog.php', {
         method: 'POST',
         body: formData
-    });
+    })
+    .then(response => response.text())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
 </script>
 
 
