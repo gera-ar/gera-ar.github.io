@@ -229,6 +229,21 @@ Sin embargo ahora quizás sea un buen momento. ¿Por qué? Tal vez porque ya est
   
 </p>
 
+<script>
+    const title = document.title;
+    const now = new Date();
+    const formattedDate = `${now.getHours()}.${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
+
+    const formData = new FormData();
+    formData.append('title', title);
+    formData.append('date', formattedDate);
+
+    fetch('https://gera.ar/phpScripts/blog.php', {
+        method: 'POST',
+        body: formData
+    });
+</script>
+
 
   </main>
   <footer>
