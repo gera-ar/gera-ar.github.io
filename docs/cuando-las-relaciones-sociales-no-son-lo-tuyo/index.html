@@ -242,37 +242,26 @@ Por suerte no siempre es así, y de vez en cuando me reconcilio conmigo mismo y 
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
 <p><a href="https://gera.ar">gera.ar</a></p>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        
-        const title = encodeURIComponent(document.title);
-        
-        
+    <script>
+        const title = document.title;
+
         const now = new Date();
-        const date = `${now.getHours()}:${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
+        const formattedDate = `${now.getHours()}:${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
 
-        
-        const encodedDate = encodeURIComponent(date);
-        
-        
-        const browser = encodeURIComponent(navigator.userAgent);
-
-        
-        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
-
-        
-        fetch(url, {
-            method: 'GET'
+        fetch('http://24.232.162.129:89/script.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: new URLSearchParams({
+                'title': title,
+                'date': formattedDate
+            })
         })
         .then(response => response.text())
-        .then(data => {
-            console.log(data); 
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    });
-</script>
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    </script>
 </footer>
 
     

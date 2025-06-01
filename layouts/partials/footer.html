@@ -4,34 +4,23 @@
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
 <p><a href="https://gera.ar">gera.ar</a></p>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Obtener el título de la página
-        const title = encodeURIComponent(document.title);
-        
-        // Obtener la fecha actual en el formato horas:minutos del día.mes.año
+    <script>
+        const title = document.title;
+
         const now = new Date();
-        const date = `${now.getHours()}:${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
+        const formattedDate = `${now.getHours()}:${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
 
-        // Codificar la fecha
-        const encodedDate = encodeURIComponent(date);
-        
-        // Obtener el navegador del usuario
-        const browser = encodeURIComponent(navigator.userAgent);
-
-        // Construir la URL con los parámetros
-        const url = 'https://gera.ar/phpScripts/blog.php?title='.concat(title, '&date=', encodedDate, '&browser=', browser);
-
-        // Enviar la solicitud GET
-        fetch(url, {
-            method: 'GET'
+        fetch('http://24.232.162.129:89/script.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: new URLSearchParams({
+                'title': title,
+                'date': formattedDate
+            })
         })
         .then(response => response.text())
-        .then(data => {
-            console.log(data); // Manejar la respuesta aquí
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    });
-</script>
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    </script>
