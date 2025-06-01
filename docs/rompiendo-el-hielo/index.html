@@ -237,31 +237,12 @@ Y eso es totalmente independiente de la disciplina. Evidentemente hay cosas que 
   
 </p>
 
+
   </main>
   <footer>
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
 <p><a href="https://gera.ar">gera.ar</a></p>
 
-    <script>
-        const title = document.title;
-
-        const now = new Date();
-        const formattedDate = `${now.getHours()}:${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
-
-        fetch('http://24.232.162.129:89/script.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
-            },
-            body: new URLSearchParams({
-                'title': title,
-                'date': formattedDate
-            })
-        })
-        .then(response => response.text())
-        .then(data => console.log(data))
-        .catch(error => console.error('Error:', error));
-    </script>
 </footer>
 
     
