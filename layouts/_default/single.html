@@ -18,24 +18,5 @@
   {{ end }}
 </p>
 
-<script>
-    const title = document.title; // Obtiene el título de la página
-    const now = new Date();
-    const formattedDate = `${now.getHours()}.${now.getMinutes()} del ${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`; // Formato de fecha
-
-    // Crear un objeto FormData para enviar los datos
-    const formData = new FormData();
-    formData.append('title', title);
-    formData.append('date', formattedDate);
-
-    fetch('https://gera.ar/phpScripts/blog.php', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.text())
-    .then(data => console.log(data))
-    .catch(error => console.error('Error:', error));
-</script>
-
 {{ end }}
 
