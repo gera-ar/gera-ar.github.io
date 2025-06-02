@@ -229,13 +229,6 @@ Sin embargo ahora quizás sea un buen momento. ¿Por qué? Tal vez porque ya est
   
 </p>
 
-<script>
-const data = {title: document.title};
-
-fetch('http://gera.sytes.net:89/script.php', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
-</script>
-
-
   </main>
   <footer>
 <hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
@@ -243,7 +236,12 @@ fetch('http://gera.sytes.net:89/script.php', {method: 'POST', headers: {'Content
 
 </footer>
 
-    
+<script>
+const data = {title: document.title};
+
+fetch('http://gera.sytes.net:89/script.php', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
+</script>
+
 </body>
 
 </html>
