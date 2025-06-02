@@ -248,6 +248,12 @@ Así y todo seguí trasteando con algunas cosas. Me regalaron una raspberry, con
   
 </p>
 
+<script>
+const data = {title: document.title};
+
+fetch('http://gera.sytes.net:89/script.php', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
+</script>
+
 
   </main>
   <footer>
