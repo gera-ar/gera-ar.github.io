@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://blog.gera.ar/images/favicon.png" />
+<title>¿Qué hacés perdiendo el tiempo con ese teclado? | Reflexiones de un cronopio</title>
+<meta name="title" content="¿Qué hacés perdiendo el tiempo con ese teclado?" />
+<meta name="description" content="Hay una tendencia un poco odiosa de criticar la gestión del tiempo ajeno con esa vara personal de lo que es útil, divertido o aburrido sobre aquello que el otro hace." />
+<meta name="keywords" content="reflexiones,tecnología," />
+
+
+<meta property="og:title" content="¿Qué hacés perdiendo el tiempo con ese teclado?" />
+<meta property="og:description" content="Hay una tendencia un poco odiosa de criticar la gestión del tiempo ajeno con esa vara personal de lo que es útil, divertido o aburrido sobre aquello que el otro hace." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.gera.ar/qu%C3%A9-hac%C3%A9s-perdiendo-el-tiempo-con-ese-teclado/" /><meta property="og:image" content="https://blog.gera.ar/images/share.png"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-10-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-10-31T00:00:00+00:00" /><meta property="og:site_name" content="Blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://blog.gera.ar/images/share.png"/>
+
+<meta name="twitter:title" content="¿Qué hacés perdiendo el tiempo con ese teclado?"/>
+<meta name="twitter:description" content="Hay una tendencia un poco odiosa de criticar la gestión del tiempo ajeno con esa vara personal de lo que es útil, divertido o aburrido sobre aquello que el otro hace."/>
+
+
+
+<meta itemprop="name" content="¿Qué hacés perdiendo el tiempo con ese teclado?">
+<meta itemprop="description" content="Hay una tendencia un poco odiosa de criticar la gestión del tiempo ajeno con esa vara personal de lo que es útil, divertido o aburrido sobre aquello que el otro hace."><meta itemprop="datePublished" content="2024-10-31T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2024-10-31T00:00:00+00:00" />
+<meta itemprop="wordCount" content="726"><meta itemprop="image" content="https://blog.gera.ar/images/share.png"/>
+<meta itemprop="keywords" content="reflexiones,tecnología," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+      --width: 800px;
+      --font-main: Verdana, sans-serif;
+      --font-secondary: Verdana, sans-serif;
+      --font-scale: 1em;
+      --background-color: #fff;
+      --heading-color: #222;
+      --text-color: #444;
+      --link-color: #3273dc;
+      --visited-color:  #8b6fcb;
+      --code-background-color: #f2f2f2;
+      --code-color: #222;
+      --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+      :root {
+          --background-color: #333;
+          --heading-color: #eee;
+          --text-color: #ddd;
+          --link-color: #8cc2dd;
+          --visited-color:  #8b6fcb;
+          --code-background-color: #777;
+          --code-color: #ddd;
+          --blockquote-color: #ccc;
+      }
+  }
+
+  body {
+      font-family: var(--font-secondary);
+      font-size: var(--font-scale);
+      margin: auto;
+      padding: 20px;
+      max-width: var(--width);
+      text-align: left;
+      background-color: var(--background-color);
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      line-height: 1.5;
+      color: var(--text-color);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-main);
+      color: var(--heading-color);
+  }
+
+  a {
+      color: var(--link-color);
+      cursor: pointer;
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline; 
+  }
+
+  nav a {
+      margin-right: 8px;
+  }
+
+  strong, b {
+      color: var(--heading-color);
+  }
+
+  button {
+      margin: 0;
+      cursor: pointer;
+  }
+
+  main {
+      line-height: 1.6;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  hr {
+      border: 0;
+      border-top: 1px dashed;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  code {
+      font-family: monospace;
+      padding: 2px;
+      background-color: var(--code-background-color);
+      color: var(--code-color);
+      border-radius: 3px;
+  }
+
+  blockquote {
+      border-left: 1px solid #999;
+      color: var(--code-color);
+      padding-left: 20px;
+      font-style: italic;
+  }
+
+  footer {
+      padding: 25px 0;
+      text-align: center;
+  }
+
+  .title:hover {
+      text-decoration: none;
+  }
+
+  .title h1 {
+      font-size: 1.5em;
+  }
+
+  .inline {
+      width: auto !important;
+  }
+
+  .highlight, .code {
+      padding: 1px 15px;
+      background-color: var(--code-background-color);
+      color: var(--code-color);
+      border-radius: 3px;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+      list-style-type: none;
+      padding: unset;
+  }
+
+  ul.blog-posts li {
+      display: flex;
+  }
+
+  ul.blog-posts li span {
+      flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+      color: var(--visited-color);
+  }
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Reflexiones de un cronopio</h2>
+</a>
+
+<img src="/images/cronopio.png" alt="Ilustración de un personaje con un sombrero de mago escribiendo y sentado frente a una biblioteca" style="width: 50px; height: auto;">
+
+<nav><a href="/">Página de inicio</a>
+
+<a href="/sobre-mi/">Sobre mi:</a>
+
+
+<a href="/blog">Entradas publicadas</a>
+
+</nav></header>
+  <main>
+
+<h1>¿Qué hacés perdiendo el tiempo con ese teclado?</h1>
+<p>
+  <i>
+    <time datetime='2024-10-31'>
+      31.10.2024
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>Hay una tendencia un poco odiosa de criticar la gestión del tiempo ajeno con esa vara personal de lo que es útil, divertido o aburrido sobre aquello que el otro hace.
+Más de una vez me han preguntado algo similar al título. Sin embargo bastante uniforme y monótona sería la sociedad si no existiera esta diversidad de gustos y pareceres.</p>
+<p>Empecé a utilizar &ldquo;putadoras&rdquo; como decía mi peque hace unos años,  cuando tuve la posibilidad de trabajar y comprarme una, y de ahí creo que nunca paré.
+Destruyendo sistemas operativos semanalmente haciendo pruebas, instalando y desinstalando cosas.</p>
+<p>Poco tiempo después me atrapó el audio digital, que incluía 2 cosas que me encantaban; música y tecnología. Editores de audio, programas multipistas, etcétera.
+Sin embargo algunos años después alguien me movió el piso. Si, ella. La programación.</p>
+<p>En el verano del 20, frustrado ya por no poder utilizar en producción musical con Reaper plugins e instrumentos virtuales que tenían una interfaz absolutamente inaccesible para usuarios de lectores de pantalla, se me dio por chusmear un lenguaje de scripting llamado AutoHotkey.</p>
+<p>Lo hice como quien mira un video sobre física cuántica a sabiendas de sus ínfimas probablidades de comprender algo, pero que igual lo hace con la esperanza de al menos hacerse una idea generalísima del asunto.
+Y contra todo pronóstico, ese día desarrollé mi primer código de programación que me mostró un cartelito feo que decía &ldquo;hola&rdquo;.</p>
+<p>No fue porque tenga una capacidad natural de comprender lo incomprensible, sino porque ese lenguaje en particular permite hacer cosas con unas pocas líneas bastante discernibles.
+Y ese fue el comienzo de algo que no imaginé que sucediera. convertirme en programador aficionado.</p>
+<p>El hecho de hacer funcionar algo, y que eso sea de utilidad para otras personas me insufló un entusiasmo infinito.
+Sin embargo la programación lleva mil horas de culo en silla, y uno debía aún trabajar, hacer de padre, hijo, amigo, cónyuge.</p>
+<p>Pero otra cosa inimaginable sobrevino; pandemia, encierro, horas y horas en casa. Lo que mas allá de toda esa tristeza por quienes lo pasaron muy mal,  con un poco de pesar debo confesar que eso me dio el empujón para intentarlo y avanzar bastante rápido.</p>
+<p>Primero fueron scripts (pequeños programitas para ejecutar alguna funcionalidad específica) para hacer usables plugins e instrumentos virtuales por personas ciegas.
+Después un poco de desarrollo web con lenguajes como HTML JavaScript y php para montar mi propia web desde 0 y poder compartir tutoriales, y herramientas con la comunidad en la página que ha ido creciendo y tropezando junto a mi aprendizaje.</p>
+<p>Después vino el amor por el lenguaje de programación python que me permitió crear complementos para el lector de pantallas NVDA, algunas otras herramientas como un gestor de contraseñas, algunos juegos muy sencillos para el peque, y algunas cosas más que ya ni recuerdo.</p>
+<p>Otra cosa que valoro mucho en esto del desarrollo es la buena voluntad de muchos por compartir, dar una mano, aportar  lo que se pueda a un proyecto. Y esto se da, a mi escaso entender en este ambiente, por la filosofía del software libre.
+Me he encontrado con personas muy generosas con sus conocimientos y su tiempo, que no las nombro para no ser injustos con nadie. Hay de los otros también, pero la verdad que han sido una ínfima minoría.</p>
+<p>Pero poco tiempo después volvió la rutina; vida social y la ocupación de lo cotidiano.
+Así y todo seguí trasteando con algunas cosas. Me regalaron una raspberry, con la cual aprendí algo de ese maravilloso sistema operativo basado en Linux, contenedores docker, y cositas varias.</p>
+<p>Con ese aparatito tan pequeño pude montar un servidor, bloqueador de anuncios, servidor de conexión remota, VPN local, gestor de torrents, automatización de descargas, en fin.</p>
+<p>Los teléfonos inteligentes son un aparato tremendamente útil para muchas tareas, que también aportan su buen terrón de arena para la independencia de una persona con discapacidad con sus apps de localización, reconocedores de billetes, IAs descriptivas, detectores de luz y colores, OCR instantáneo, y mil cosas más.</p>
+<p>Sin embargo mi corazón tecnológico siempre tira para las computadoras, ordenadores, computadores o como se quiera llamar. En épocas de miñaturización de todo, aún sigo prefiriendo trastear con sistemas operativos a golpe de teclado. Así que ahí está la respuesta del por qué paso tanto tiempo frente a este periférico de entrada con muchos botonitos.</p>
+
+</content>
+<p>
+  
+  <a href="https://blog.gera.ar/blog/reflexiones/">#reflexiones</a>
+  
+  <a href="https://blog.gera.ar/blog/tecnolog%C3%ADa/">#tecnología</a>
+  
+</p>
+
+<script>
+const data = {title: document.title};
+
+fetch('http://gera.sytes.net:89/script.php', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
+</script>
+
+
+  </main>
+  <footer>
+<hr><p>&copy; 2025 Sitio creado por Gerardo Késsler</p>
+<p><a href="https://gera.ar">gera.ar</a></p>
+
+</footer>
+
+    
+</body>
+
+</html>
