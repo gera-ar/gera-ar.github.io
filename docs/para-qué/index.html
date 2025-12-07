@@ -230,9 +230,13 @@ Sin embargo ahora quizás sea un buen momento. ¿Por qué? Tal vez porque ya est
 </p>
 
 <script>
-const data = {title: document.title};
-
-fetch('http://gera.sytes.net:89/script.php', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
+fetch("https://mate.gera.ar/contador/script.php", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  body: "title=" + encodeURIComponent(document.title)
+});
 </script>
 
 

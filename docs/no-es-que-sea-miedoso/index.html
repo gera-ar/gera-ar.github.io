@@ -239,9 +239,13 @@ Sin embargo ese recuerdo, al igual que aquel aguijón,  quedó clavado en algún
 </p>
 
 <script>
-const data = {title: document.title};
-
-fetch('http://gera.sytes.net:89/script.php', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
+fetch("https://mate.gera.ar/contador/script.php", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  body: "title=" + encodeURIComponent(document.title)
+});
 </script>
 
 
