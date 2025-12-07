@@ -240,7 +240,14 @@ Y eso es totalmente independiente de la disciplina. Evidentemente hay cosas que 
 <script>
 const data = {title: document.title};
 
-fetch('http://gera.sytes.net:89/script.php', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
+<script>
+fetch("https://mate.gera.ar/contador/script.php", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  body: "title=" + encodeURIComponent(document.title)
+});
 </script>
 
 
